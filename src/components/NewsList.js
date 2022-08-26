@@ -21,10 +21,6 @@ export default function NewsList() {
     }
   };
 
-  const checkNull = (data) => {
-    return data.urlToImage !== null;
-  };
-
   useEffect(() => {
     getData();
   }, []);

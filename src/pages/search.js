@@ -37,7 +37,7 @@ export default function Search() {
 
   useEffect(() => {
     document.body.addEventListener("keypress", handleKey);
-  }, []);
+  });
 
   return (
     <>
